@@ -1,11 +1,10 @@
-from MigrationHandler import MigrationHandler
-from ConsoleHandler import ConsoleHandler
-from StaticDataHandler import StaticDataHandler
+from migrations.MigrationHandler import MigrationHandler
+from console.ConsoleHandler import ConsoleHandler
+from static_data.StaticDataHandler import StaticDataHandler
 import sys
 import datetime
-from migrations import *
 import importlib
-from Database import Database
+from database.Database import Database
 
 reload(sys)  
 sys.setdefaultencoding('utf8')

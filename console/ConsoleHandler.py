@@ -1,6 +1,6 @@
 
 # -*- coding: utf-8 -*-  
-from Database import Database
+from database.Database import Database
 import traceback
 
 class ConsoleHandler(object):
